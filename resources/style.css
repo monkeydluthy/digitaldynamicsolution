@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: block;
+    max-width: 100%;
+}
+header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    border: 1px black solid;
+   
+}
+
+.logo img {
+    height: 150px;
+    width: auto;
+    margin: 20px;
+    opacity: 70%;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+    margin-top: 120px;
+    margin-block-end: auto;
+    align-content:flex-end;
+    margin-left: 100%;
+}
+
+nav li {
+    padding: 5px;
+}
+
+nav button {
+    height: 150%;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25rem;
+}
+
+.top-box {
+    line-height: 1rem;
+}
+
+.top-box h5 {
+    display: inline-block;
+}
+
+.mid-box {
+    max-width: 100%;
+    display: flex;
+    
+}
+.mid-box img {
+    max-width: 70%;
+    float: left;
+}
+
+.float-box {
+    float: right;
+    margin-top: 2.5rem;
+}
+
+.float-box h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-left:1rem;
+}
+
+.float-box button {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.25rem;
+}
+
+.float-box a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .box-1{
+    background-color: lightgray;
+    width: 30%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container .box-2{
+    width: 30%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: lightgray;
+    margin-bottom: 1rem;
+}
+
+.container .box-3{
+    width: 30%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: lightgray;
+    margin-bottom: 1rem;
+}
+
+.footer-container {
+    max-width: 100%;
+    background-color: lightcyan;
+}
+
+.social-media {
+    display: inline-flex;
+}
+
+.social-media p{
+    margin-left: 1rem;
+}
+
+.site-links {
+    display: inline-flex;
+}
+
+.site-links ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.site-links li{
+    margin-right: 0.15rem;
+    margin-left: 0.15rem;
+}
+
