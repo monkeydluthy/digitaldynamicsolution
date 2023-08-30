@@ -27,17 +27,16 @@ nav ul {
     display: inline-flex;
     list-style-type: none;
     color: white;
-    margin-top: 120px;
-    margin-block-end: auto;
-    align-content:flex-end;
-    margin-left: 100%;
+    
 }
 
 .nav-list {
-    margin-left: 137%;
+    margin-left: 130%;
+    margin-top: 9rem;
 }
+
 nav li {
-    padding: 2px;
+    padding: 10px;
 }
 
 nav a {
@@ -45,16 +44,9 @@ nav a {
     color:lightslategray;
 }
 
-nav button {
-    height: 150%;
-    width: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.25rem;
-    margin-top: 0.75rem;
-    background-color: white;
-    border: none;
+.current-menu-item {
+    border-bottom: 2px black solid;
 }
-
 .top-box {
     line-height: 1rem;
 }
