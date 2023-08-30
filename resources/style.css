@@ -11,16 +11,17 @@ header {
     height: 200px;
     width: 100%;
     display: flex;
-    border: 1px black solid;
+    
    
 }
 
 .logo img {
     height: 150px;
     width: auto;
-    margin: 20px;
+    margin: 20%;
     opacity: 70%;
 }
+
 
 nav ul {
     display: inline-flex;
@@ -32,8 +33,16 @@ nav ul {
     margin-left: 100%;
 }
 
+.nav-list {
+    margin-left: 137%;
+}
 nav li {
-    padding: 5px;
+    padding: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color:lightslategray;
 }
 
 nav button {
@@ -41,6 +50,9 @@ nav button {
     width: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.25rem;
+    margin-top: 0.75rem;
+    background-color: white;
+    border: none;
 }
 
 .top-box {
