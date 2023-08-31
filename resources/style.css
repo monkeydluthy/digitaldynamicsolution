@@ -4,7 +4,7 @@ html {
 
 body {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 100%;
 }
 
@@ -56,8 +56,14 @@ nav a {
     line-height: 1rem;
 }
 
+.top-box h1 {
+    font-size: 5rem;
+    margin-top: 5%;
+}
+
 .top-box h5 {
     display: inline-block;
+    font-size: 1.5rem;
 }
 
 .mid-box {
@@ -181,17 +187,29 @@ nav a {
 
 .site-links {
     display: inline-flex;
+    
 }
 
 .site-links ul{
     display: inline-flex;
     list-style-type: none;
+   
 }
 
-.site-links li{
+.site-links li {
     margin-right: 0.15rem;
     margin-left: 0.15rem;
 }
+
+.site-links a {
+    text-decoration: none;
+    color: red;
+}
+
+.site-links a:hover {
+    color: blue;
+}
+
 .copyright {
     max-width: 100%;
     display: inline-flex;
