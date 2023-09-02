@@ -209,6 +209,78 @@ nav a {
     border-radius: 8px;
 }
 
+.services-item-4{
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.services-item-4 img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+}
+
+.services-item-5 {
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.services-item-5 img {
+    max-width: 67%;
+    height: auto;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+}
+
+.services-item-6 {
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.services-item-6 img {
+    max-width: 67%;
+    height: auto;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+}
+
+.services-item-7 {
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.services-item-7 img {
+    max-width: 67%;
+    height: auto;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+}
+
+.services-item-8 {
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.services-item-8 img {
+    max-width: 67%;
+    height: auto;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+}
+
+.services-item-9 {
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.services-item-9 img {
+    max-width: 62%;
+    height: auto;
+    margin-top: 0.4rem;
+    border-radius: 8px;
+}
+
 .portfolio-container {
     background-color: whitesmoke;
     border-radius: 8px;
