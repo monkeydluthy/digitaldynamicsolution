@@ -2,41 +2,37 @@ html {
     max-width: 100%;
 }
 
-body {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-width: 100%;
-}
-
-
 
 header {
-    height: 200px;
-    max-width: 100%;
-    display: flex;   
+    height: 12rem;
+    max-width: 100%; 
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 1;
 }
 
-.logo img {
-    height: 100%;
-    width: 200%;
-    margin-top: 5%;
+header img {
+    width: 20%;
+    height: 10 rem;
+    float: left;
+    margin: auto;
+    top: 0;
 }
 
 nav {
     max-width: 100%;
-    margin-left: 50%;
+    background-color: white;
+    margin: auto;
 }
 
 nav ul {
     display: inline-flex;
     list-style-type: none;
     color: white;
-    
-}
-
-.nav-list {
-    
-    margin-top: 9rem;
+    float: right;
+    z-index: 1;
+    margin-top: 15%;
 }
 
 nav li {
@@ -48,8 +44,17 @@ nav a {
     color:lightslategray;
 }
 
+
 .current-menu-item {
     border-bottom: 2px black solid;
+}
+
+body {
+    top: 10rem;
+    position: relative;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 100%;
 }
 
 .top-box {
@@ -57,8 +62,8 @@ nav a {
 }
 
 .top-box h1 {
-    font-size: 5rem;
-    margin-top: 5%;
+    font-size: 3rem;
+    margin-top: 10%;
 }
 
 .top-box h5 {
